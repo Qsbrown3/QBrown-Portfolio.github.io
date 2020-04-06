@@ -1,23 +1,222 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="utf-8">
-    <title></title>
+    <meta id="viewport" content="width=1024, initial-scale=1.0">
+    <title>QBDesign</title>
+    <link rel="shortcut icon" type="image/x-icon" href="css/images/favicon1.ico">
+    <link rel="icon" type="image/png" href="css/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="css/images/favicon-16x16.png" sizes="16x16">
+    <link rel="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,700,900,900i|Roboto+Slab:100,300,400,700|Shrikhand" href="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Vendor Js -->
+    <script type="text/javascript" async src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="vendor/jquery-1.12.4.min.js"</script>
+    <!-- App Js -->
+    <script src="js/animated.js"></script>
+    <script src="js/functions.js"</script>
+    <script>
+            if (screen.width <= 767) {
+              var mvp = document.getElementById('viewport');
+              mvp.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no')
+            }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analystics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108362457-2"> </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108362457-2');
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.js"></script>
   </head>
-  <body>
-    <h1>HELLO.</h1>
-    <h2>Thanks for stopping by.  My name is Qasim Brown</h2>
-    <h2>and I'm a UI UX Designer based in Houston, Tx.  I</h2>
-    <h2>design friendly Digital Experiences.</h2>
-  </body>
-    <nav>
-      <ul>
-        <li> <a href="">Qasim Brown</a> </li>
-        <li> <a href="">LinkedIn</a> </li>
-        <li> <a href="">Github</a> </li>
-        <li> <a href="">Instagram</a> </li>
-        <li> <a href="">Twitter</a> </li>
-        <li> <a href="mailto:Qsbrown3@gmail.com">Email</a> </li>
-      </ul>
-    </nav>
+  <body> == $0
+      <div class="wrapper">
+        <header class="header">
+          <div class="shell">
+            <a href="index.html" class="logo animated animated-in undefined">Qasim Brown</a>
+            <a href="#" class="burger-menu animated animated-in undefined">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <!--Nav -->
+            <nav class="nav header__nav">
+              <ul>
+                <li class+"animated animated-in undefined">
+                  <a href="#section-next">Work</a>
+                </li>
+                <li class="animated animated-in undefined">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="animated animated-in undefined">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <!-- Intro -->
+        <div class="intro animated animated-in undefined">
+          <div class="shell">
+            <div class="intro__content">
+              <p class="animated animated-in undefined">
+                <strong>
+                  HELLO.
+                    <br>
+                    MY NAME IS QASIM BROWN
+                    <br>
+                     AND I AM A
+                    <strong>UI UX DESIGNER</strong>
+                    <br>
+                     BASED IN HOUSTON, TX.
+                    <br>
+                     I DESIGN DIGITAL EXPERIENCES THAT PUT USERS FIRST.
+                    <br>
+                </strong>
+              </p>
+            </div>
+            <a href="#section-next" class="intro__link">
+              <i class="ico-chevron"></i>
+            </a>
+          </div>
+        </div>
+        <div class="main">
+          <!-- Section project -->
+          <section class="section section--purple" id="section-next">
+				<div class="shell">
+					<div class="section__inner">
+						<div class="section__content animated">
+							<a href="#" class="logo-weekendr">weekendr</a>
+
+							<h3>More local fun.</h3>
+
+							<p>Weekendr mobile app makes it easy to find great local vacations within driving distance of your town.</p>
+
+							<div class="section__actions">
+								<a href="page2.html" class="btn btn--blue section__btn">View case study</a>
+							</div>
+						</div>
+
+						<aside class="section__aside animated">
+							<img src="css/images2/temp/section-image1.png" alt="" width="1576" height="1132">
+						</aside>
+					</div>
+				</div>
+			</section>
+          <!-- Section project2 -->
+          <section class="section section--reverse section--green section--primary animated">
+				<div class="shell">
+					<div class="section__inner">
+						<div class="section__content animated">
+							<a href="#" class="logo-nakedbox">
+								Naked<strong>Box</strong>
+							</a>
+
+							<h3>Snack like <span class="visible-xs-block"></span> our ancestors.</h3>
+
+							<p>NakedBox is an e-commerce product<br> selling raw snacks. It focuses on monthly subscriptions or the ability to purchase<br> boxes individually.</p>
+
+							<div class="section__actions">
+								<a href="page1.html" class="btn btn--pink section__btn">View case study</a>
+							</div>
+						</div>
+
+						<aside class="section__aside animated">
+							<img src="css/images2/temp/mac.png" class="hidden-xs" alt="" width="1480" height="1182">
+
+                        <img src="css/images/temp/mobile.png" class="visible-xs-block" alt="" width="700" height="558">
+
+
+						</aside>
+					</div>
+				</div>
+			</section>
+          <!-- Section project3 -->
+          <section class="section section--blue section--secondary">
+				<div class="shell">
+					<div class="section__inner">
+						<div class="section__content animated">
+							<a href="grabbem.html" class="logo-grabbem">grabbem</a>
+
+							<h3>Grab, organize, and share what you love.</h3>
+
+							<p>Grabbem is a SaaS product that allows users to grab and share content with an intuitive design.</p>
+
+							<div class="section__actions">
+								<a href="page3.html" class="btn btn--white section__btn">View case study</a>
+							</div>
+						</div>
+
+						<div class="section__aside animated">
+							<img src="css/images2/temp/grabbem%20portfolio%20homepage%20image.png" alt="" width="1362" height="966">
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</div>
+          <!-- Section projectNext -->
+          <section class="section section--reverse section--yellow section--primary animated">
+				<div class="shell">
+					<div class="section__inner">
+						<div class="section__content animated">
+
+
+							<h4>SF ZOO App  <span class="visible-xs-block"></span> redesign</h4>
+
+							<p></p>
+
+							<div class="section__actions">
+								<a href="" class="btn btn--pink section__btn">Coming soon</a>
+							</div>
+						</div>
+
+						<aside class="section__aside animated">
+							<img src="css/images2/temp/sfzoo.png" class="hidden-xs" alt="" width="1480" height="1182">
+
+                        <img src="css/images2/temp/sfzoo.png" class="visible-xs-block" alt="" width="700" height="558">
+
+
+						</aside>
+					</div>
+				</div>
+			</section>
+          <!-- Footer -->
+          <footer class="footer">
+            <div class="shell">
+              <div class="footer__inner">
+                <a href="#" class="footer__link">
+                  <h4>Get in touch</h4>
+                </a>
+                <p>Thanks for stopping by, and I hope you enjoyed my work.</p>
+                <p>Want to chat about UX or have any questions?  Feel free to contact me.</p>
+                <!-- Social icons -->
+                <div class="socials">
+                  <ul>
+                    <li>
+                      <a href="contact.html"></a>
+                    </li>
+                    <li>
+                      <a href="#">linkedin</a>
+                    </li>
+                    <li>
+                      <a href="#">ico-cat</a>
+                    </li>
+                    <li>
+                      <a href="#">Dribble</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Copyright -->
+
+				<p class="copyright">&copy; 2018 Qasim Brown |  Designed and Developed by Qasim Brown</p>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
 </html>
